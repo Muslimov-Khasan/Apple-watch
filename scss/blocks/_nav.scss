@@ -1,0 +1,50 @@
+.nav__list{
+    display: flex;
+    margin-top: 15px;
+    list-style: none;
+  }
+  
+  .nav__item{
+    margin-right: 30px;
+  }
+  
+  
+  .nav__link{
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #333333;
+    text-decoration: none;
+  
+    &:hover{
+      color: #000;
+      border-bottom: 1px solid #000;
+    }
+  }
+  
+  .form__input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #F3F3F3;
+    padding: 16px 0;
+    margin-top: 8px;
+    margin-left: 10px;
+    
+  }
+
+  .header__logo{
+      margin-top: -31px;
+     position: absolute;
+}
+
+  @include  breakpoint-down(902px){
+
+      .header__logo{
+        width: 35px;
+        height: 42px;
+        object-fit: fill;
+        background-size: cover;
+      }
+  }
