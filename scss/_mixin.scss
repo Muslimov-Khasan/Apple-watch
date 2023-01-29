@@ -1,6 +1,5 @@
-@mixin breakpoint-down($screen-width){
-    @media only screen and (max-width:$screen-width){
-
-        @content;
-    }
+@mixin breakpoint-down($screen-width) {
+  @media only screen and (max-width: $screen-width) {
+    @content;
+  }
 }

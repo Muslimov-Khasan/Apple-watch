@@ -1,23 +1,23 @@
-.hero{
+.hero {
   padding-top: 50px;
   padding-bottom: 185px;
   background-image: url("../images/intro-bg.jpg");
   background-repeat: no-repeat;
   background-position: calc(50% + 600px) calc(0%);
-  border-bottom: solid #DDDDDD;
+  border-bottom: solid #dddddd;
   position: relative;
 }
 
-.foto{
+.foto {
   margin-top: -300px;
   margin-left: 650px;
 }
 
-.hero__box{
+.hero__box {
   width: 490px;
 }
 
-.hero__title{
+.hero__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -25,7 +25,7 @@
   line-height: 120%;
 }
 
-.hero__text{
+.hero__text {
   font-family: Roboto;
   font-size: 16px;
   line-height: 150%;
@@ -33,22 +33,21 @@
   margin-bottom: 30px;
   border-left: 3px solid #888888;
   padding-left: 40px;
-
 }
 
-.hero__link{
+.hero__link {
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
-  background: #EA625C;
+  color: #ffffff;
+  background: #ea625c;
   padding: 12px 39px;
   text-decoration: none;
 
-  &:hover{
-    background-color: #D34C45;
+  &:hover {
+    background-color: #d34c45;
   }
-  }
+}
